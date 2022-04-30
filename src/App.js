@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/Navbar';
 
 function App() {
   return (
-    <div className="container">
-     <h1>React portfolio</h1> 
-    </div>
+    <Navbar/>
   );
 }
 
